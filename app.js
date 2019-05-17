@@ -6,13 +6,16 @@ target.innerText = "hi!";
 
 var button = document.getElementById("button");
 button.addEventListener('click', function(){
-    alert("yes, thank u for clicking me")
-});
-
-var username = document.getElemetnById("username");
-if (username.value == "admin") {
+    var username = document.getElemetnById("username");
+    if (username.value == "admin") {
         alert("welcome");
 }     else{
         alert("u r not welcome!");
+        for (var i = 0; i < document.body.children.length ; i++) {
+            var element = document.body.children[i];
+            element.classList.add("red");
+        }
 }
 });
+
+
