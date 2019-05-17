@@ -20,8 +20,19 @@ h1{
   border: 1px solid #000;
   margin-left: 10vw;
   padding: 10vw;
+  <position: fixed| relative| absolute|;>
 }
 
+.container{
+    display: flex;
+}
+
+.child{
+  width: 100px;
+  height: 100px;
+  colour: black;
+  background-color: skyblue;
+}
 img {
   border-radius: 8px;
 }
