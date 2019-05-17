@@ -1,6 +1,6 @@
 h1{
-  color:green;
-  background-color: #8c9199;
+  color: black;
+  background-color: #8cd8d2;
 }
 
 .title{
@@ -24,7 +24,11 @@ h1{
 }
 
 .container{
-    display: flex;
+  display: flex;
+  height: 100 px;
+  width: 75 pw;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 .child{
