@@ -8,6 +8,12 @@ h1{
   background-color: #518e89;
 }
 
+#profile-picture{
+  width: 500px;
+  #vh/vw percents of the viewer profile
+  #% percentage relative to the container
+}
+
 img {
   border-radius: 8px;
 }
