@@ -37,6 +37,10 @@ h1{
   background-color: skyblue;
 }
 
+.red{
+  background-color: red;
+}
+
 img {
   border-radius: 8px;
 }
