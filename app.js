@@ -8,3 +8,11 @@ var button = document.getElementById("button");
 button.addEventListener('click', function(){
     alert("yes, thank u for clicking me")
 });
+
+var username = document.getElemetnById("username");
+if (username.value == "admin") {
+        alert("welcome");
+}     else{
+        alert("u r not welcome!");
+}
+});
