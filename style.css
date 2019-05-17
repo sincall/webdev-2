@@ -7,11 +7,19 @@ h1{
   color: black;
   background-color: #518e89;
 }
-
+<vh/vw percents of the viewer profile>
+<percentage relative to the container>
+<px is pixels>
 #profile-picture{
-  width: 500px;
-  #vh/vw percents of the viewer profile
-  #% percentage relative to the container
+  width: 60vw;
+
+}
+
+.content{
+  width: 50vw;
+  border: 1px solid #000;
+  margin-left: 10%;
+  padding: 10vw;
 }
 
 img {
