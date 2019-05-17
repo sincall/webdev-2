@@ -6,5 +6,5 @@ target.innerText = "hi!";
 
 var button = document.getElementById("button");
 button.addEventListener('click', function(){
-    alert("yes, hi sister")
+    alert("yes, thank u for clicking me")
 });
