@@ -36,8 +36,7 @@ h1{
 .child{
   width: 100px;
   height: 100px;
-  colour: black;
-  background-color: skyblue;
+  padding: 10px;
 }
 
 img {
