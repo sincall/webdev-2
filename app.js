@@ -10,7 +10,7 @@ button.addEventListener('click', function(){
     if (username.value == "admin") {
         alert("welcome");
 }     else{
-        alert("u r not welcome!");
+        alert("You are not welcomed!");
         for (var i = 0; i < document.body.children.length ; i++) {
             var element = document.body.children[i];
             element.classList.add("red");
