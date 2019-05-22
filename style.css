@@ -30,17 +30,15 @@ h1{
 }
 
 .button{
-  align: right;
-  width: 100;
+  margin-left: 90vw;
 }
 
-/*not used
 .child{
   width: 100px;
   height: 100px;
   colour: black;
   background-color: skyblue;
-} */
+}
 
 img {
   border-radius: 8px;
